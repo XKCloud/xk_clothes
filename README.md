@@ -1,7 +1,5 @@
 # xk_clothes
 
-Contributor: **NONE**
-
 # How to:
  - Put xk_clothes in to your resource folder
  - Add: start xk_clothes in the server.cfg
