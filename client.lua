@@ -8,7 +8,6 @@ end)
 
 -- ALL [RegisterCommand("tshirt", function()] below can be changed for your personal use!
 
--- EN Version: RegisterCommand("tshirt", function()
 RegisterCommand("tshirt", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
@@ -35,8 +34,7 @@ RegisterCommand("tshirt", function()
 
 end)
 
--- EN Version: RegisterCommand("torso", function()
-RegisterCommand("trøje", function()
+RegisterCommand("torso", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
 		if skin.sex == 0 then
@@ -62,8 +60,7 @@ RegisterCommand("trøje", function()
 
 end)
 
--- EN Version: RegisterCommand("pants", function()
-RegisterCommand("bukser", function()
+RegisterCommand("pants", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
 		if skin.sex == 0 then
@@ -83,8 +80,7 @@ RegisterCommand("bukser", function()
 
 end)
 
--- EN Version: RegisterCommand("shoes", function()
-RegisterCommand("sko", function()
+RegisterCommand("shoes", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
 		if skin.sex == 0 then
@@ -102,8 +98,7 @@ RegisterCommand("sko", function()
 
 end)
 
--- EN Version: RegisterCommand("mask", function()
-RegisterCommand("maske", function()
+RegisterCommand("mask", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
 	
@@ -116,7 +111,6 @@ RegisterCommand("maske", function()
 
 end)
 
--- EN Version: RegisterCommand("hat", function()
 RegisterCommand("hat", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
@@ -130,8 +124,7 @@ RegisterCommand("hat", function()
 
 end)
 
--- EN Version: RegisterCommand("glasses", function()
-RegisterCommand("briller", function()
+RegisterCommand("glasses", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
 	
@@ -144,8 +137,7 @@ RegisterCommand("briller", function()
 
 end)
 
--- EN Version: RegisterCommand("bag", function()
-RegisterCommand("taske", function()
+RegisterCommand("bag", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
 	
@@ -158,7 +150,6 @@ RegisterCommand("taske", function()
 
 end)
 
--- EN Version: RegisterCommand("vest", function()
 RegisterCommand("vest", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
@@ -172,8 +163,7 @@ RegisterCommand("vest", function()
 
 end)
 
--- EN Version: RegisterCommand("chain", function()
-RegisterCommand("kæde", function()
+RegisterCommand("chain", function()
 
 	TriggerEvent('skinchanger:getSkin', function(skin)
 	
@@ -186,8 +176,7 @@ RegisterCommand("kæde", function()
 
 end)
 
--- EN Version: RegisterCommand("clothes", function()
-RegisterCommand("tøj", function()
+RegisterCommand("clothes", function()
 
 	ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin)
 		TriggerEvent('skinchanger:loadSkin', skin)
