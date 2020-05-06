@@ -3,7 +3,6 @@
 Contributor: **NONE**
 
 # How to:
- - Import the SQL file for create both item and add them to shop
  - Put xk_clothes in to your resource folder
  - Add: start xk_clothes in the server.cfg
  - Enjoy
